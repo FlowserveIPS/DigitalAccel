@@ -75,15 +75,15 @@ void main(void)
         
          accel_status = check_status();
 
-          if(accel_status == 1)
+          if(accel_status == 1)  // 06/22/2018
           {
 
            _NOP();
                  
            temperature = read_temperature();
           
-           read_X_Axis();
-           read_Y_Axis();
+           read_X_Axis(); // 06/22/2018
+           read_Y_Axis(); // 06/22/2018
            read_Z_Axis();
 
            _NOP();
