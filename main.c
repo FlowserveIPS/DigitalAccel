@@ -48,7 +48,7 @@ void main(void)
         int i = 0;
         int accel_status = 0;
 
-        WDTCTL = WDTPW + WDTHOLD;             // Stop watchdog timer
+        WDTCTL = WDTPW + WDTHOLD;             // Stop watchdog timer // 06/25/2018
 
         // Clock Configuration
         DCOCTL = DCO0 ; 
