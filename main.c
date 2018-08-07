@@ -64,7 +64,7 @@ void main(void)
 
         _NOP();
 
-        response = queryADXL357(STATUS);  
+        response = queryADXL357(STATUS);    // report status
 
         _NOP();
 
