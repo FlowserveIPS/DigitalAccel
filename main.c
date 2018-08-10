@@ -6,6 +6,7 @@
  * Version 1.0
  *
  */
+// Updated this comment by Akshat on 10 Aug 2018
 
 // When the USCI module is enabled by clearing the UCSWRST bit it is ready to receive and transmit.
 // In master mode, writing to UCxTXBUF activates the bit clock generator and the data will begin to transmit.
